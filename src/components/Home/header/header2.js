@@ -41,7 +41,7 @@ export default function Header2() {
             </div>
             <div style={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
                     <div className="none" style={{width:"35px",height:"35px",display:"flex",alignItems:"center"}}>
-                        <img style={{width:"100%",borderRadius:"3px"}} src={photo2} alt="img"/>
+                        <img style={{width:"100%",borderRadius:"3px"}} className="phootoo" src={photo2} alt="img"/>
                     </div>
                     <div className={count==="true"?"active":"none"}  style={{display:"flex",cursor:"pointer",alignItems:"center",paddingLeft:"20px",paddingRight:"20px"}}>
                         <p style={{fontWeight:"bold"}}>En</p>

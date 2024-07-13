@@ -130,3 +130,9 @@ input::placeholder{
 .activee li {
     color: white !important;
 }
+
+.phootoo {
+    @media(max-width:992px) {
+        display: none !important;
+    }
+}
