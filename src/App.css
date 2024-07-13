@@ -1,0 +1,127 @@
+:root {
+  --black:#1E1E1E;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  font-family: "roboto";
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: none;
+  display: block;
+  outline: none;
+}
+input:checked{
+  color: var(--black);
+  background-color: var(--black);
+}
+
+input::placeholder {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  border: none !important;
+  outline: none !important;
+}
+p{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .special-heading {
+      font-size: 60px;
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+      width: 750px;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+      width: 970px;
+  }
+}
+
+
+@media (min-width:1200px) {
+  .container {
+      width: 1300px;
+  }
+}
+body {
+  overflow: hidden !important;
+}
+.blackbtn{
+  width: 500px;
+  background-color: var(--black);
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 20px !important;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.whitebtn {
+  width: 500px;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 20px !important;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

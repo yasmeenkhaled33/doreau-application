@@ -1,0 +1,44 @@
+.leftside {
+    top: 0px;
+    left: 0px;
+    background-color: white !important;
+    @media(max-width:992px) {
+        top: 0px;
+        position: absolute;
+        left: -120% ;
+        width: 50% !important;
+        z-index: 22;
+    }
+}
+.appear {
+    left: 50%;
+}
+
+.product{
+    width: 32%;
+    @media(max-width:992px) {
+        width: 48%;
+    }
+}
+
+.smallmedia {
+    @media(max-width:992px) {
+        border: 2px solid black;
+        border-radius: 25px;
+    }
+}
+.onlysmall{
+    display: none !important;
+    @media(max-width:992px) {
+        display: block !important;
+        margin-left: 20px !important;
+    }
+}
+
+
+.bigsec {
+    @media(max-width:992px) {
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+}

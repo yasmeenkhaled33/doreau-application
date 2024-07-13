@@ -1,0 +1,20 @@
+.summer {
+    background-image: url(./../../../images//image\ 696\ \(1\).png);
+    margin-bottom: 50px;
+    @media(max-width:992px){
+        background-image: url(./../../../images//Mask\ group\ \(4\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1100px !important;
+        max-width: 100%;;
+    }
+}
+.summer img {
+    height: 100%;
+}
+
+.summer h1 {
+    @media(max-width:992px) {
+        font-size: 70px !important;
+    }
+}

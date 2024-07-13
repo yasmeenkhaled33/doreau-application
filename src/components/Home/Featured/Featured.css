@@ -1,0 +1,24 @@
+.topsec {
+    @media(max-width:992px) {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
+
+.bottomsec {
+    @media(max-width:992px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.divimg {
+    @media(max-width:992px) {
+        width: 100% !important;
+    }
+}
+.divdetail {
+    @media(max-width:992px) {
+        text-align: left !important;
+        transform: translateX(30px) !important  ;
+    }
+}

@@ -1,0 +1,23 @@
+.btnn{
+    width: 100px !important;
+    height: 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main {
+    @media(max-width:992px) {
+        flex-direction: column;
+        margin-top: 220px;
+    }
+}
+
+.divv{
+    @media(max-width:992px) {
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+}

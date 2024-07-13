@@ -1,0 +1,45 @@
+.prod{
+    width: 300px !important;
+}
+
+.top {
+    @media(max-width:992px) {
+        flex-direction: column !important;
+        margin-top: 100px;
+    }
+}
+.photos {
+    @media(max-width:992px) {
+        /* flex-direction: column-reverse !important; */
+        width: 100% !important;
+    }
+}
+.details {
+    @media(max-width:992px){
+        margin-top: 30px;
+    }
+}
+
+.active{
+    color: red !important;
+}
+
+.activeclass {
+    background-color:rgb(144, 159, 186);
+    color:white;
+}
+.border {
+    border: 1px solid black !important;
+    padding: 2px;
+}
+
+.okcolor {
+    border: 3px solid rgb(144, 159, 186);
+    padding: 3%;
+}
+
+.buttonn {
+    width: 300px !important;
+    border: 1px solid rgb(144, 159, 186);
+    border-radius: 20px;
+}

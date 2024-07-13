@@ -1,0 +1,132 @@
+.none{
+    @media(max-width:929px) {
+        position: absolute;
+        top: -100px;
+    }
+}
+
+.active {
+    @media(max-width:993px) {
+    position: absolute;
+    top: 10px;
+    z-index: 10000;
+    right: 60px;
+    }
+}
+
+.absolut{
+    @media(max-width:929px) {
+        position: absolute;
+        top: 160px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80% !important  ;
+    }
+}
+
+.list {
+    display: none;
+    @media(max-width:929px) {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+.bag {
+    @media(max-width:929px) {
+        padding-right: -10px !important;
+    }
+}
+input::placeholder{
+    color: #909fba;
+}
+
+.red {
+    color: red;
+}
+
+.gray {
+    color: #5a5858;
+}
+
+
+.mainss{
+    @media(max-width:992px) {
+    flex-direction: column;
+    width: 100%;
+    top: 0px;
+    left: -100%;
+    height: 100%;
+    padding-top: 30px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    }
+}
+
+.inputt {
+    @media(max-width:929px) {
+        width:100% !important;
+    }
+}
+
+.smallonly{
+    @media(max-width:992px) {
+        display: none !important;
+    }
+}
+.open {
+    @media(max-width:992px) {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    }
+}
+
+.open {
+    @media(min-width:993px) {
+        display: none !important;
+    }
+}
+.openn {
+    @media(min-width:993px) {
+        display: none !important;
+    }
+}
+.openn {
+    @media(max-width:992px) {
+        display: block !important;
+    }
+}
+.opened {
+    left: 0px;
+}
+.smallonly{
+    @media (min-width:993px) {
+        display: none !important;
+    }
+}
+
+.button {
+    width: 300px;
+    background-color: white !important ;
+    color: black !important;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 20px !important;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+.activee{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 31px;
+    text-align: center !important;
+}
+.activee li {
+    color: white !important;
+}
